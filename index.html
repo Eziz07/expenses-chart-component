@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Expenses Chart Component</title>
+</head>
+<body>
+    <div class="container">
+        <div class="top">
+          <div>
+          <h1>My Balance</h1>
+          <p>$921.48</p>
+          </div>
+          <div class="circle"></div>
+        </div>
+        <div class="bottom">
+          <h2 tooltip='hello'>Spending - Last 7 days</h2>
+          <div class="chart">
+            <div class='items'>
+              <span>$21.25</span>
+              <div style="--i: #ff9770; height: 58px"></div>
+              <p>mon</p>
+            </div>
+            
+            <div class='items'>
+              <span>$32.55</span>
+              <div style="--i: #ff3333; height: 118px"></div>
+              <p>tue</p>
+            </div>
+            
+            <div class='items'>
+              <span>$52.36</span>
+              <div style="--i: #8080ff; height: 188px"></div>
+              <p>wed</p>
+            </div>
+            
+            <div class='items'>
+              <span>$31.07</span>
+              <div style="--i: #ff9999; height: 108px"></div>
+              <p>thu</p>
+            </div>
+            
+            <div class='items'>
+              <span>$28.05</span>
+              <div style="--i: #ff4d4d; height: 98px"></div>
+              <p>fri</p>
+            </div>
+            
+            <div class='items'>
+              <span>$41.56</span>
+              <div style="--i: #ff1a1a; height: 140px"></div>
+              <p>sat</p>
+            </div>
+            
+            <div class='items'>
+              <span>429.33</span>
+              <div style="--i: #ff9770; height: 100px"></div>
+              <p>sun</p>
+            </div>
+          </div>
+          
+          <div class='last-results'>
+            <div class="left">
+              <p>Total this month</p>
+              <h3>$478.33</h3>
+            </div>
+            <div class="right">
+              <p>+2.4%</p>
+              <span>from last month</span>
+            </div>
+          </div>
+        </div>
+      </div>
+</body>
+</html>
